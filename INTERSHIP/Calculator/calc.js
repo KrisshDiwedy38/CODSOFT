@@ -3,6 +3,7 @@ let buttons = document.querySelectorAll('button');
 
 let string = "";
 let arr = Array.from(buttons);
+// -- main calculator function -- 
 arr.forEach(buttons => 
    {
       buttons.addEventListener('click' , (click) => 

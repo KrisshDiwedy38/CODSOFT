@@ -1,0 +1,304 @@
+html{
+   background-color: white;
+   font-family: "Bebas Neue", sans-serif;
+   transition: all 0.05s;
+}
+
+body{
+   margin: 0px;
+   scroll-behavior: smooth;
+}
+
+p{
+   margin: 0px;
+}
+/** INTRO **/
+
+.intro{
+   margin-top: 250px;
+   align-content: center;
+   display: flex;
+   flex-direction: row;
+   height: 500px;
+   justify-content: center;
+   column-gap: 50px;
+}
+
+.profilepic{
+   width: 500px;
+   border-radius: 50%;
+   box-shadow: 0px 0px 10px rgba(0,0,0, 1);
+}
+
+.info{
+   width: 700px;
+   color: rgb(0, 0, 0)
+}
+
+.info_head{
+   text-align: center;
+   margin-top: 100px;
+   font-size: 100px;
+}
+
+.info_body{
+   text-align: center;
+   margin-top: 50px;
+   font-size: 30px;
+}
+
+/** ABOUT ME **/
+
+.aboutme{
+   margin: 200px 10px 0px 10px;
+   display: grid;
+   grid-template-rows: 100px 1fr;
+   justify-content: center;
+   text-align: center;
+   
+}
+
+.am_head{
+   font-size: 40px;
+   width: 100%;
+   
+}
+
+.am_body{
+   font-size: 25px;
+   width: 100%;
+   
+}
+
+/** PROJECTS **/
+
+.projects{
+   text-align: center;
+   margin-top: 200px;
+   
+}
+.p_title{
+   font-size: 40px
+}
+
+.p1{
+   margin-top: 70px;
+   display: grid;
+   grid-template-columns: 500px 500px;
+   justify-content: center;
+}
+
+.p_info{
+   height: 300px;
+   width: 100%;
+   
+}
+
+.p_info_head{
+   font-size: 30px;
+   height: 100px;
+   width: 100%;
+}
+
+.p_info_body{
+   font-size: 20px;
+   height: 100px;
+   width: 100%;
+}
+
+.p_info_links{
+   height: 100px;
+   width: 100%;
+
+}
+
+.p_output{
+   height: 300px;
+   width: 100%;
+}
+
+.output_p{
+   width: 100%;
+}
+
+/** EXPERIENCE **/
+
+.experience{
+   text-align: center;
+   margin-top: 200px;
+}
+
+.exp_title{
+   font-size: 40px;
+}
+
+.exp_skills{
+   margin-top:70px;
+   display: grid;
+   grid-template-columns: 200px 200px 200px;
+   justify-content: center;
+   column-gap: 50px;
+}
+
+.lang{
+   height: 200px;
+}
+
+.icons{
+   height: 50px;
+   width: 50px;
+   transition: all 0.05s;
+}
+
+.icons:hover{
+   height: 70px;
+   width: 70px;
+}
+
+.level{
+   font-size: 20px;
+}
+/** EDUCATION **/
+
+.education{
+   margin-top: 200px;
+   text-align: center;
+}
+
+.edu_title{
+   font-size: 40px;
+}
+
+.edu_info{
+   margin-top: 70px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   column-gap: 100px;
+   row-gap: 50px;
+   margin: 10px 10px 10px 10px 
+}
+
+.years{
+   color:grey;
+}
+
+.edu{
+   margin-top: 10px;
+   padding: 10px;
+   height: 100%;
+   min-height: 230px;
+   width: 100%;
+   max-width: 500px;
+   font-size: 25px;
+   border: 2px;
+   border-color: black;
+   border-style: solid;
+   border-radius: 25px;
+}
+
+
+/** CONTACT **/
+
+.contact{
+   margin-top: 200px;
+   text-align: center;
+}
+
+.cm_title{
+   font-size: 40px;
+}
+
+.cm_links{
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 50px 50px 50px;
+   column-gap: 70px;
+   justify-content: center;
+}
+
+.link{
+   height: 50px;
+   transition: all 0.05s;
+}
+
+/** RESPONSIVE CSS **/
+
+@media (max-width: 650px) {
+   .edu_info{
+      flex-direction: column;
+   }
+
+   .exp_skills{
+      grid-template-columns: 100px ;
+   }
+
+   .am_body{
+      font-size: 20px;
+   }
+
+}
+
+@media (max-width: 1000px) {
+   .p1{
+      grid-template-columns: 500px;
+   }
+
+   .p_info{
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+   }
+
+   .p_info_head{
+      height: 100px;
+   }
+   .p_info_body{
+      height: 100%;
+   }
+
+
+
+}
+
+@media (max-width: 1100px) and (min-width: 700px) {
+   .profilepic{
+      margin-left: 10px;
+      width: 250px;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .info_head{
+      font-size: 75px;
+   }
+
+   .info_body{
+      font-size: 20px
+   }
+
+}
+
+@media (max-width: 700px) {
+
+   .intro{
+      flex-direction: column;
+      height: 100px;
+      justify-content: center;
+      align-items: center;
+      row-gap: 50px
+   }
+
+   .profilepic{
+      width: 150px;
+   }
+
+   .info_head{
+      font-size: 50px;
+   }
+
+   .info_body{
+      font-size: 15px;
+   }
+   
+}

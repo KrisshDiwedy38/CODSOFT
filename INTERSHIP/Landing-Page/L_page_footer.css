@@ -1,0 +1,43 @@
+footer{
+   height: 100%;
+   width: 100%;
+   background-color: beige;
+   display: grid;
+   grid-template-rows: 200px 100px 400px;
+}
+
+.cu-head{
+   font-size: 50px;
+   text-align: center;
+   padding-top: 100px;
+}
+
+.cm_links{
+   margin-top: 30px;
+   display: grid;
+   grid-template-columns: 50px 50px 50px;
+   column-gap: 70px;
+   justify-content: center;
+}
+
+.link{
+   height: 50px;
+   transition: all 0.05s;
+}
+
+.bookmarks{
+   display: flex;
+   flex-direction: row;
+   height: 300px;
+   justify-content: center;
+   column-gap: 50px;
+   margin: 100px;
+}
+
+.bm-info{
+   justify-content: center;
+   align-content: top;
+   font-size: 25px;
+   width: max-content;
+}
+

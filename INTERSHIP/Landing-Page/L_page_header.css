@@ -1,0 +1,48 @@
+header{
+   display: flex;
+   flex-direction: row;
+   height: 80px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo{
+   flex:1;
+}
+
+.DnT{
+   width: 70px;
+   height: 70px;
+   margin-left: 10px;
+   border: none;
+   border-radius: 50%;
+}
+
+/* Right Section */
+
+.right{
+   width: 700px;
+}
+.links{
+   font-family: "Bebas Neue", sans-serif;
+   font-size: 19px;
+   cursor: pointer;
+   background-color: rgb(10, 34, 57);
+   color: rgb(80, 180, 226);
+   height: 45px;
+   border: 2px solid black;
+   border-radius: 15px;
+   width: 120px;
+   margin-right: 50px;
+}
+
+.links:hover{
+   background-color: rgb(21, 73, 121);
+}
+
+.links:active{
+   background-color:rgb(80, 180, 226);
+   color: rgb(10, 34, 57);
+  
+}
+
